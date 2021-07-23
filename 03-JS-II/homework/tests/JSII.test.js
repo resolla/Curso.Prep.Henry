@@ -144,7 +144,7 @@ describe('operadoresLogicos(num1, num2, num3)', function() {
     expect(operadoresLogicos(80, -1, 2)).toBe('Hay negativos');
   });
   it('should return num3 + 1 if num3 is greater than num1 and num2', function() {
-    expect(operadoresLogicos(1, 3, 10)).toBe(11);
+    expect(operadoresLogicos(1, 3, 10)).toBe(false);
   });
   it('should return \'Error\' if any of the arguments are equal 0', function() {
     expect(operadoresLogicos(1, 0, 10)).toBe('Error');
