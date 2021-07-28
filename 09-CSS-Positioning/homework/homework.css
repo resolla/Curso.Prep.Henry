@@ -64,3 +64,18 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 
 /* Ejercicio 6. */
+
+#ejercicioSeis {
+    flex-direction: row-reverse;
+}
+
+
+/* Ejercicio 7. */
+
+#ejercicioSiete {
+    flex-direction: row-reverse;
+    justify-content:: flex-around;
+    align-items: stretch;
+    align-self: baseline;
+
+}

@@ -1,0 +1,20 @@
+h1 {
+    color: rgb(104, 144, 156);
+}
+
+img {
+    width: 400px;
+}
+
+#d03ID {
+    height: 600px;
+    width: 500px;
+    background-color: rgb(109, 90, 72);
+    border: 1px solid black;
+}
+
+#spanID {
+    font-size: 18px;
+    margin: 50px;
+    padding: 50px;
+}
